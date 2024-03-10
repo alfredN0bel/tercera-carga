@@ -1,1 +1,37 @@
+/*.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
 
+}*/
+
+
+
+body{
+    background: #6f699f;
+}
+#fondo{
+    object-fit: cover;
+   
+
+}
+p{
+    text-align:center
+
+
+    
+    
+}
+h1{
+    text-align: center;
+    border:5px solid;color:black;margin: 25px;padding: 30px;
+        
+}
+em strong{
+    color:red;
+    font-size:x-large
+}
+#mision {
+    font-size: 20px;
+    text-align: center;
+}
