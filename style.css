@@ -7,9 +7,10 @@
 
 
 
-body{
-   
+.tituloPrincipal{
+    padding-left: 30px;
 }
+
 #fondo{
     object-fit: cover;
    
@@ -17,6 +18,7 @@ body{
 }
 .textoPrincipal{
     background: #6f699f;
+    padding: 20 px;
 
 }
 p{
@@ -26,8 +28,8 @@ p{
     
     
 }
-h1{
-    text-align: center;
+h2{
+   
     border:5px solid;color:black;margin: 25px;padding: 30px;
         
 }
@@ -41,11 +43,13 @@ em strong{
 }
 .aspectosDiferenciales{
     background-color:rgb(0, 200, 255);
+    padding: 30px;
     
 
 }
-h2 {
+.tituloCentrado{
     text-align: center;
+    font-size: xx-large;
 }
 .items{
     font-style: italic;
@@ -53,6 +57,10 @@ h2 {
 }
 ul{
     display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    font-size:x-large
 }
 .imagenDiferencial{
     width: 50%;
