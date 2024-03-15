@@ -4,40 +4,80 @@
         <meta charset="UTF-8">
             <meta name="vi ewport" content="width=device-width, initial-scale=1.0">
         <title>barberia alura</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="productos.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
-            <H1 class="tituloPrincipal">BARBERIA ALURA</H1>
+            <div class="caja">
+                <h1><img src="imgs/logo.png"></h1>
+                <nav>   
+                    <ul >
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav> 
+            </div>
         </header>
-        <img id="fondo" src="imgs/servicios-salon-barberia-2048x1360.jpeg">
+        <main>
+            <img id="fondo" class="BANNER" src="imgs/servicios-salon-barberia-2048x1360.jpeg">
         
+        </main>
+        <main class="cuerpo">
+            
           <!-- <div class="contenedor">
                 <img id="fondo" src="imgs/servicios-salon-barberia-2048x1360.jpeg">
                 <div class="h1"></div>
                 <div class="p"></div>
            </div> -->
             
-            <div class="textoPrincipal"> 
-                <h2 class=" tituloCentrado">Sobre la Barbería Alura</h2>
+            <section class="texto-principal"> 
+               
+                <h2 class="titulo-principal">Sobre la Barbería Alura</h2>
+
+                    <img class="utensilios" src="imgs/utensilios[1].jpg" alt="utensilios de un barbero" >  
+
                 <p>Ubicada en el corazón de la ciudad, la <strong>Barbería Alura</strong> trae para el mercado lo que hay de mejor para su cabello y barba. Fundada en 2020, la Barbería Alura ya es destaque en la ciudad y conquista nuevos clientes diariamente.</p> 
 
                 <p id="mision"><em>Nuestra misión es: <strong>"Proporcionar autoestima y calidad de vida a nuestros clientes".</strong></em></p>
 
                 <p>Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. El atendimiento posee un padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes.</p> 
-            </div>
+            
+            </section>
+            <section class="ubicacionmaps">
+                <h3 class="titulo-principal">Nuestra ubicacion.</h3>
+                <p>Nuestro establecimiento esta ubicado en el corazon de la ciudad.</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1666.6838018708227!2d-76.95919494705811!3d-12.036190076643544!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c429f7c6b8ed%3A0x9960c0947a894a0b!2sImmocar!5e0!3m2!1ses-419!2spe!4v1710428065197!5m2!1ses-419!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-            <div class="aspectosDiferenciales">
-                <h3 class="tituloCentrado">diferenciales</h3>
-                <ul> 
-                    
-                    <li class="items">buena ubicacion.</li>
-                    <li class="items">atencion personalizada.</li>
-                    <li class="items">espacio diferenciado.</li>
-                    <li class="items">profesionales calificados.</li>
-                </ul>
-                <img src="imgs/prueba.jpg" class="imagenDiferencial">
-            </div> 
+            </section>
+
+            <section class="aspectosDiferenciales">
+                <h3 class="titulo-principal">Diferenciales.</h3>
+                <div class="contenido-diferenciales">
+                    <ul class="lista-diferenciales"> 
+                        <li class="items">Buena ubicacion.</li>
+                        <li class="items">Atencion personalizada.</li>
+                        <li class="items">Espacio diferenciado.</li>
+                        <li class="items">Profesionales calificados.</li>
+                        <li class="items">Puntualidad.</li>
+                        <li class="items">Limpieza.</li>
+                    </ul><img src="imgs/prueba.jpg" class="imagenDiferencial">
+                </div>
+                
+            </section> 
+            <section class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY?si=39U0AToSdY331odv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </section>
+        </main>
+        
+        <footer>
+            <img src="imgs/logo-blanco.png">
+            <p class="copyright"> &#169 Derechos reservados 2024</p>
+        </footer>    
             
 
     </body>
